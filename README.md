@@ -1,6 +1,6 @@
 # Project: Dog-Breed Classifier
 
-In this project, I develop an algorithm for a generating my own [Sinfield](https://en.wikipedia.org/wiki/Seinfeld) TV scripts using RNN.
+In this project, I develop an algorithm for a generating my own [Seinfield](https://en.wikipedia.org/wiki/Seinfeld) TV scripts using RNN.
 
 ## Getting Started
 
@@ -44,17 +44,17 @@ This jupyter notebook describe the whole project from udacity, from the beginnin
 
 To train and test the model, you need this dataset:
 
-* The [Seinfeld Scri[t]](https://github.com/musajoshua/Tv-Script-Generator/blob/master/data/Seinfeld_Scripts.txt).
+* The [Seinfeld Script](https://github.com/musajoshua/Tv-Script-Generator/blob/master/data/Seinfeld_Scripts.txt).
 Place it in this project's home directory, at the location `/data`.
 
 
 ## Running the project
 
-The whole project is located in the file `dlnd_tv_script_generation.ipynb` and it's include the training and the prediction part.
+The whole project is located in the file `dlnd_tv_script_generation.ipynb` and it's include the training and the generation part.
 
 ### Model architecture
 
-I choose a network that comprises of an embedding layer, a multi-layer LSTM and a fully connected output layer.
+I chose a network architecture that consist of an embedding layer, a multi-layer LSTM and a fully connected output layer.
 
 For data parameters
 ```python
@@ -104,7 +104,7 @@ criterion = nn.CrossEntropyLoss()
 
 optimizer = optim.Adam(rnn.parameters(), lr=learning_rate)
 ```
-I use the `CrossEntropyLoss` function and the `ADAM` optimizer to train the model.
+I use the `CrossEntropyLoss` function and the `Adam` optimizer to train the model.
 
 ### Train the model
 
