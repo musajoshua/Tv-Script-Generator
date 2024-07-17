@@ -1,4 +1,4 @@
-# Project: TV-Script GEnerator
+# Project: TV-Script Generator
 
 In this project, I develop an algorithm for a generating my own [Seinfield](https://en.wikipedia.org/wiki/Seinfeld) TV scripts using RNN.
 
